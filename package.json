@@ -1,0 +1,22 @@
+{
+  "name": "babel-node-starter",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "https://github.com/JacobSamro/babel-node-starter.git",
+  "author": "Jacob Samro <jacobsamro@outlook.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "nodemon": "^1.19.1"
+  },
+  "scripts": {
+    "start": "babel-node app.js",
+    "run:dev": "nodemon --exec babel-node app.js"
+  },
+  "dependencies": {
+    "ejs": "^2.6.1"
+  }
+}
